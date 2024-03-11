@@ -1,0 +1,30 @@
+.list-item{
+    background-color:#7f90d4;
+    list-style-type:none;
+    width:37%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom:10px;
+    border-radius:4px;
+    height:40px;
+    padding-left:10px;
+    padding-right:10px;
+    color:white;
+}
+
+.close-button{
+    background-color: transparent;
+    color:maroon;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.rename-button, .update-button{
+    background-color: transparent;
+    border:none;
+    cursor:pointer;
+    color:white;
+    margin-right:15px;
+}
